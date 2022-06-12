@@ -2,12 +2,12 @@ public class Employee {
     private static int counter = 1;
 
 
-    private String name;
-    private String surname;
-    private String patronymic;
-    private double salary;
-    private  int department;
-    private int id;
+    private final String  name;
+    private final String surname;
+    private final String patronymic;
+    private final double salary;
+    private final   int department;
+    private final int id;
 
     public  Employee(String name,String surname,String patronymic,double salary,int department){
         this.id = counter++;

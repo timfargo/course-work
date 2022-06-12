@@ -14,8 +14,7 @@ public class Main {
         Employee employeeWithMaxSalary = findEmployeeWithMaxSalary();
         System.out.println("Сотрудник с максимальной ЗП:" + employeeWithMaxSalary);
         double averageSalary = averageSalary();
-        System.out.printf("Средняя ЗП всех сотрудников за месяц:", averageSalary);
-        printAllEmployees();
+        System.out.printf("Средняя ЗП всех сотрудников за месяц", averageSalary);
     }
 
     private static double averageSalary() {
@@ -75,7 +74,6 @@ public class Main {
         }
     }
 
-    @SuppressWarnings("UnclearExpression")
     private static Employee generateEmployee(int i, int department) {
         int start = 56_800;
         int end = 160_500;
