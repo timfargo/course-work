@@ -1,4 +1,5 @@
 public class Employee {
+    private static int counter = 1;
 
 
     private String name;
@@ -9,7 +10,7 @@ public class Employee {
     private int id;
 
     public  Employee(String name,String surname,String patronymic,double salary,int department){
-        this.id = id;
+        this.id = counter++;
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;

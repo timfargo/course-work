@@ -84,7 +84,9 @@ public class Main {
                 "Surname" + i,
                 "Patronymic" + i,
                 start + (end - start) * Math.random(),
-                );
+                department
+        );
+
     }
 }
 
